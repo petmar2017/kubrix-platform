@@ -1,4 +1,7 @@
-clusterType: k8s # supported: k8s, kind
-dnsProvider: ionos # supported: aws, ionos, stackit 
-domain: demo.kubrix.cloud
-# HA: true|false (only supported with kubriX prime)
+clusterType: 
+valuesFile: demo-stack
+dnsProvider: local
+domain: kubrix.local
+gitRepo: https://github.com/petmar2017/kubrix-platform
+gitRepoOrg: petmar2017
+gitRepoName: kubrix-platform
